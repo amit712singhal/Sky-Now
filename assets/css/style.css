@@ -268,7 +268,63 @@ body {
   display: none;
 }
 
-/* #HEADER */
+.card {
+  background-color: var(--surface);
+  color: var(--on-surface);
+}
+
+.card-lg {
+  border-radius: var(--radius-28);
+  padding: 20px;
+}
+
+.card-sm {
+  border-radius: var(--radius-16);
+  padding: 16px;
+}
+
+.heading {
+  color: var(--white);
+  font-size: var(--heading);
+  line-height: 1.1;
+}
+
+.title-1 {
+  font-size: var(--title-1);
+}
+
+.title-2 {
+  font-size: var(--title-2);
+  margin-block-end: 12px;
+}
+
+.title-3 {
+  font-size: var(--title-3);
+  font-weight: var(--weight-semiBold);
+}
+
+.body-1 {
+  font-size: var(--body-1);
+}
+
+.body-2 {
+  font-size: var(--body-2);
+  font-weight: var(--weight-semiBold);
+}
+
+.body-3 {
+  font-size: var(--body-3);
+}
+
+.label-1 {
+  font-size: var(--label-1);
+}
+
+.label-2 {
+  font-size: var(--label-2);
+}
+
+/*---------------------------- #HEADER ----------------------------*/
 
 .header .btn-primary .span {
   display: none;
@@ -406,7 +462,87 @@ body {
   box-shadow: none;
 }
 
+/* #MAIN */
+
+main {
+  height: calc(100vh-80px);
+  height: calc(100svh-80px); /* for mobile browser */
+  overflow: hidden;
+}
+
+article.container {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 20px;
+  height: 100%;
+  overflow-y: auto; /* for firefox */
+  overflow-y: overlay;
+}
+
+article.container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+article.container:is(:hover, :focus-within)::-webkit-scrollbar-thumb {
+  background-color: var(--white-alpha-8);
+}
+
+article.container::-webkit-scrollbar-button {
+  height: 10px;
+}
+
+article.container::before {
+  content: "";
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-image: var(--gradient-1);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.section:not(:last-child) {
+  margin-block-end: 16px;
+}
+
 /* #CURRENT WEATHER */
+
+.current-weather-card .weapper {
+  margin-block: 12px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.current-weather-card .weather-icon {
+  margin-inline: auto;
+}
+
+.current-weather-card > .body-3 {
+  text-transform: capitalize;
+}
+
+.current-weather-card .meta-list {
+  margin-block-start: 16px;
+  padding-block-start: 16px;
+  border-block-start: 1px solid var(--outline);
+}
+
+.current-weather-card .meta-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.current-weather-card .meta-item:not(:last-child) {
+  margin-block-end: 12px;
+}
+
+.current-weather-card .meta-text {
+  color: var(--on-surface-variant);
+}
 
 /* #HIGHLIGHTS */
 
