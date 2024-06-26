@@ -11,16 +11,16 @@
   --on-surface-variant: #7b7980;
   --on-surface-variant-2: #b9b6bf;
   --outline: #3e3d40;
-  --bg-aqi-1: #89e589;
+  --bg-aqi-1: #55e755;
   --on-bg-aqi-1: #1f331f;
-  --bg-aqi-2: #e5dd89;
+  --bg-aqi-2: #e8dd67;
   --on-bg-aqi-2: #33311f;
-  --bg-aqi-3: #e5c089;
+  --bg-aqi-3: #daab64;
   --on-bg-aqi-3: #332b1f;
   --bg-aqi-4: #e58989;
   --on-bg-aqi-4: #331f1f;
-  --bg-aqi-5: #e589b7;
-  --on-bg-aqi-5: #331f29;
+  --bg-aqi-5: #ee5d4a;
+  --on-bg-aqi-5: #2f1b25;
   --white: hsl(0, 0%, 100%);
   --white-alpha-4: hsla(0, 0%, 100%, 0.04);
   --white-alpha-8: hsla(0, 0%, 100%, 0.08);
@@ -566,15 +566,106 @@ article.container::before {
 .forecast-card .label-1 {
   color: var(--on-surface-variant);
   font-weight: var(--weight-semiBold);
-
 }
 
-.forecast-card .card-item > .label-1{
+.forecast-card .card-item > .label-1 {
   width: 100%;
   text-align: right;
 }
 
 /* #HOURLY FORECAST */
+
+.highlights .m-icon {
+  font-size: 3.2rem;
+}
+
+.highlight-list {
+  display: grid;
+  gap: 20px;
+}
+
+.highlight-list .title-3 {
+  color: var(--on-surface-variant);
+  margin-block-end: 20px;
+}
+
+.highlights .card-sm {
+  background-color: var(--black-alpha-10);
+  position: relative;
+}
+
+.highlight-card :is(.wrapper, .card-list, .card-item) {
+  display: flex;
+  align-items: center;
+}
+
+.highlight-card .wrapper {
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.highlight-card .card-list {
+  flex-wrap: wrap;
+  flex-grow: 1;
+  row-gap: 8px;
+}
+
+.highlight-card .card-item {
+  width: 50%;
+  justify-content: flex-end;
+  gap: 4px;
+}
+
+.highlight-card .label-1 {
+  color: var(--on-surface-variant);
+}
+
+.badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  padding: 2px 12px;
+  border-radius: var(--radius-pill);
+  font-weight: var(--weight-semiBold);
+  cursor: help;
+}
+
+.badge.aqi-1 {
+  background-color: var(--bg-aqi-1);
+  color: var(--on-bg-aqi-1);
+}
+
+.badge.aqi-2 {
+  background-color: var(--bg-aqi-2);
+  color: var(--on-bg-aqi-2);
+}
+
+.badge.aqi-3 {
+  background-color: var(--bg-aqi-3);
+  color: var(--on-bg-aqi-3);
+}
+
+.badge.aqi-4 {
+  background-color: var(--bg-aqi-4);
+  color: var(--on-bg-aqi-4);
+}
+
+.badge.aqi-5 {
+  background-color: var(--bg-aqi-5);
+  color: var(--on-bg-aqi-5);
+}
+
+.highlight-card.two .card-item {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+}
+
+.highlight-card.two .label-1{
+  margin-block-end: 4px;
+}
+
+
 
 /* #FORECAST */
 
