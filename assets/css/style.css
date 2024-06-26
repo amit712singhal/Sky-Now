@@ -546,6 +546,34 @@ article.container::before {
 
 /* #HIGHLIGHTS */
 
+.forecast-card .title-2 {
+  margin-block-end: 0;
+}
+
+.forecast-card :is(.card-item, .icon-wrapper) {
+  display: flex;
+  align-items: center;
+}
+
+.forecast-card .card-item:not(:last-child) {
+  margin-block-end: 12px;
+}
+
+.forecast-card .icon-wrapper {
+  gap: 8px;
+}
+
+.forecast-card .label-1 {
+  color: var(--on-surface-variant);
+  font-weight: var(--weight-semiBold);
+
+}
+
+.forecast-card .card-item > .label-1{
+  width: 100%;
+  text-align: right;
+}
+
 /* #HOURLY FORECAST */
 
 /* #FORECAST */
