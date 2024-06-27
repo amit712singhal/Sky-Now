@@ -1,7 +1,7 @@
-/* #CUSTOM PROPERTY */
+/*-------------------------------------------- CUSTOM-PROPERTY -----------------------------*/
 
 :root {
-  /* Colors */
+  /*--------- Colors ---------*/
   --primary: #b5a1e5;
   --on-primary: #100e17;
   --background: #131214;
@@ -26,7 +26,7 @@
   --white-alpha-8: hsla(0, 0%, 100%, 0.08);
   --black-alpha-10: hsla(0, 0%, 0%, 0.1);
 
-  /* Gradient colors */
+  /*--------- Gradient colors ---------*/
   --gradient-1: linear-gradient(
     180deg,
     hsla(270, 5%, 7%, 0) 0%,
@@ -40,10 +40,10 @@
     hsl(260, 5%, 12%) 100%
   );
 
-  /* Typography */
+  /*--------- Typography ---------*/
   --ff-nunito-sans: "Nunito Sans", sans-serif;
 
-  /* font-size */
+  /*--------- font-size ---------*/
   --heading: 5.6rem;
   --title-1: 2rem;
   --title-2: 1.8rem;
@@ -54,25 +54,25 @@
   --label-1: 1.4rem;
   --label-2: 1.2rem;
 
-  /* font-weight */
+  /*--------- font-weight ---------*/
   --weight-regular: 400;
   --weight-semiBold: 600;
 
-  /* box-shadow */
+  /*--------- box-shadow ---------*/
   --shadow-1: 0px 1px 3px hsla(0, 0%, 0%, 0.5);
   --shadow-2: 0px 3px 6px hsla(0, 0%, 0%, 0.4);
 
-  /* Border Radius */
+  /*--------- Border Radius ---------*/
   --radius-28: 28px;
   --radius-16: 16px;
   --radius-pill: 500px;
   --radius-circle: 50%;
 
-  /* Transition */
+  /*--------- Transition ---------*/
   --transition-short: 100ms ease;
 }
 
-/* #RESET */
+/*-------------------------------------------- RESET ---------------------------------------*/
 
 *,
 *::before,
@@ -161,7 +161,7 @@ body {
   border-radius: var(--radius-pill);
 }
 
-/* #MATERIAL ICON */
+/*----------------------------------------- MATERIAL-ICON ----------------------------------*/
 
 @font-face {
   font-family: "Material Symbols Rounded";
@@ -189,7 +189,7 @@ body {
   overflow: hidden;
 }
 
-/* #REUSED STYLE */
+/*--------------------------------------- REUSED-STYLE --------------------------------------*/
 
 .container {
   max-width: 1600px;
@@ -324,7 +324,7 @@ body {
   font-size: var(--label-2);
 }
 
-/*---------------------------- #HEADER ----------------------------*/
+/*-------------------------------------------- HEADER --------------------------------------*/
 
 .header .btn-primary .span {
   display: none;
@@ -462,7 +462,7 @@ body {
   box-shadow: none;
 }
 
-/* #MAIN */
+/*------------------------------------------- MAIN -----------------------------------------*/
 
 main {
   height: calc(100vh-80px);
@@ -496,6 +496,7 @@ article.container::before {
   content: "";
   position: fixed;
   bottom: 0;
+  left: 0;
   width: 100%;
   height: 40px;
   background-image: var(--gradient-1);
@@ -507,7 +508,7 @@ article.container::before {
   margin-block-end: 16px;
 }
 
-/* #CURRENT WEATHER */
+/*--------------------------------------- CURRENT-WEATHER ----------------------------------*/
 
 .current-weather-card .weapper {
   margin-block: 12px;
@@ -544,7 +545,7 @@ article.container::before {
   color: var(--on-surface-variant);
 }
 
-/* #HIGHLIGHTS */
+/*---------------------------------------- HIGHLIGHTS --------------------------------------*/
 
 .forecast-card .title-2 {
   margin-block-end: 0;
@@ -573,7 +574,7 @@ article.container::before {
   text-align: right;
 }
 
-/* #HOURLY FORECAST */
+/*--------------------------------------- HOURLY-FORECAST -----------------------------------*/
 
 .highlights .m-icon {
   font-size: 3.2rem;
@@ -661,18 +662,54 @@ article.container::before {
   gap: 8px 16px;
 }
 
-.highlight-card.two .label-1{
+.highlight-card.two .label-1 {
   margin-block-end: 4px;
 }
 
+/*----------------------------------------- FORECAST --------------------------------------*/
 
+.slider-container {
+  overflow-x: auto;
+  margin-inline: -16px;
+}
 
-/* #FORECAST */
+.slider-container::-webkit-scrollbar {
+  display: none;
+}
 
-/* #LOADING */
+.slider-list {
+  display: flex;
+  gap: 12px;
+}
 
-/* #ERROR SECTION */
+.slider-list:first-child {
+  margin-block-end: 16px;
+}
 
-/* #FOOTER */
+.slider-list::before,
+.slider-list::after {
+  content: "";
+  min-width: 4px;
+}
 
-/* #MEDIA QUERIES */
+.slider-item {
+  min-width: 110px;
+  flex: 1 1 100%;
+}
+
+.slider-card {
+  text-align: center;
+}
+
+.slider-item .weather-icon {
+  margin-inline: auto;
+  margin-block: 12px;
+}
+
+/*---------------------------------------- FOOTER -----------------------------------------*/
+
+/*---------------------------------------- LOADING ----------------------------------------*/
+
+/*---------------------------------------- ERROR SECTION ----------------------------------*/
+
+/*---------------------------------------- MEDIA QUERIES ----------------------------------*/
