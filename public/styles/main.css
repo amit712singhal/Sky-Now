@@ -724,6 +724,14 @@ article.container::before {
   /* display: none; */
 }
 
+.fade-in .footer {
+  display: flex;
+}
+
+.footer .body-3:last-child {
+  gap: 6px;
+}
+
 /*---------------------------------------- LOADING ----------------------------------------*/
 
 /*---------------------------------------- ERROR SECTION ----------------------------------*/
