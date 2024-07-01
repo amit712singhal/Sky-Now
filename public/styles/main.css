@@ -708,6 +708,30 @@ article.container::before {
 
 /*---------------------------------------- FOOTER -----------------------------------------*/
 
+.footer,
+.footer .body-3:last-child {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  color: var(--on-surface-variant);
+  text-align: center;
+  gap: 12px 24px;
+  margin-block-start: 28px;
+  /* display: none; */
+}
+
+.fade-in .footer {
+  display: flex;
+}
+
+.footer .body-3:last-child {
+  gap: 6px;
+}
+
 /*---------------------------------------- LOADING ----------------------------------------*/
 
 /*---------------------------------------- ERROR SECTION ----------------------------------*/

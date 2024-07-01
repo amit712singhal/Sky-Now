@@ -9,8 +9,12 @@
     <meta name="title" content="sky-now" />
     <meta name="description" content="about current weather around globe" />
 
-    <!------------------------------------- Web_Icon ------------------------------------->
-    <link rel="shortcut icon" href="./public/images/web_icon.svg" type="image/svg+xml" />
+    <!----------------------------------------- Web_Icon ------------------------------------------>
+    <link
+      rel="shortcut icon"
+      href="./public/images/web_icon.svg"
+      type="image/svg+xml"
+    />
 
     <!------------------------------------- Google Font Links ------------------------------------->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,16 +24,16 @@
       rel="stylesheet"
     />
 
-    <!------------------------------------- Custom_CSS ------------------------------------->
+    <!----------------------------------------- Custom_CSS ---------------------------------------->
     <link rel="stylesheet" href="./public/styles/main.css" />
 
-    <!------------------------------------- Custom_JS ------------------------------------->
+    <!----------------------------------------- Custom_JS ----------------------------------------->
     <script src="./js/app.js" type="module"></script>
     <script src="./js/route.js" type="module"></script>
   </head>
 
   <body>
-    <!------------------------------------------- HEADER ------------------------------------>
+    <!------------------------------------------- HEADER ------------------------------------------>
     <header class="header">
       <div class="container">
         <a href="#" class="logo"
@@ -94,11 +98,11 @@
       </div>
     </header>
 
-    <!-------------------------------------------- MAIN ------------------------------------->
+    <!-------------------------------------------- MAIN ------------------------------------------->
     <main>
       <article class="container">
         <div class="content-left">
-          <!--------------------------------- CURRENT-WEATHER ------------------------------->
+          <!--------------------------------- CURRENT-WEATHER ------------------------------------->
           <section
             class="section current-weather"
             aria-label="current weather"
@@ -132,7 +136,7 @@
             </div>
           </section>
 
-          <!------------------------------------ FORECAST ----------------------------------->
+          <!------------------------------------ FORECAST ----------------------------------------->
           <section
             class="section forecast"
             aria-labelledby="forecast-label"
@@ -236,7 +240,7 @@
         </div>
 
         <div class="content-right">
-          <!----------------------------------- HIGHLIGHTS ---------------------------------->
+          <!----------------------------------- HIGHLIGHTS ---------------------------------------->
           <section
             class="section highlights"
             aria-labelledby="highlights-label"
@@ -332,7 +336,7 @@
             </div>
           </section>
 
-          <!--------------------------------- HOURLY-FORECAST ------------------------------->
+          <!--------------------------------- HOURLY-FORECAST ------------------------------------->
           <div
             class="section hourly-forecast"
             aria-label="hourly-forecast"
@@ -570,6 +574,28 @@
             </div>
           </div>
         </div>
+
+        <!--------------------------------------- FOOTER ------------------------------------------>
+        <footer class="footer">
+          <p class="body-3">
+            Copyright 2024 Amit Singhal. All Rights Reserved.
+          </p>
+          <p class="body-3">
+            Powered By
+            <a
+              href="https://openweathermap.org/api"
+              title="Free OpenWeather API"
+              target="_blank"
+              rel="noopener"
+              ><img
+                src="./public/images/openweather.png"
+                width="150"
+                height="30"
+                loading="lazy"
+                alt="OpenWeather"
+            /></a>
+          </p>
+        </footer>
       </article>
     </main>
   </body>
