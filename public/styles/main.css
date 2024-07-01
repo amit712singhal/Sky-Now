@@ -891,3 +891,9 @@ article.container::before {
     padding: 16px;
   }
 }
+
+/* ------------------------------------- For >1200px Screen  ------------------------------*/
+
+@media (min-width: 1200px) {
+  
+}
