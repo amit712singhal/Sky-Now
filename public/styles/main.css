@@ -778,3 +778,8 @@ article.container::before {
 }
 
 /*---------------------------------------- MEDIA QUERIES ----------------------------------*/
+
+/* responsive for large than 768px screen */
+@media (min-width: 768px) {
+  
+}
