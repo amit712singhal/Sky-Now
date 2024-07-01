@@ -465,8 +465,8 @@ body {
 /*------------------------------------------- MAIN -----------------------------------------*/
 
 main {
-  height: calc(100vh-80px);
-  height: calc(100svh-80px); /* for mobile browser */
+  height: calc(100vh - 80px);
+  height: calc(100svh - 80px); /* for mobile browser */
   overflow: hidden;
 }
 
@@ -826,8 +826,8 @@ article.container::before {
 
   /* ------------------ Main -------------------*/
   main {
-    height: calc(100vh-96px);
-    height: calc(100svh-96px);
+    height: calc(100vh - 96px);
+    height: calc(100svh - 96px);
   }
 
   article.container {
@@ -895,5 +895,4 @@ article.container::before {
 /* ------------------------------------- For >1200px Screen  ------------------------------*/
 
 @media (min-width: 1200px) {
-  
 }
