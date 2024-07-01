@@ -779,9 +779,10 @@ article.container::before {
 
 /*---------------------------------------- MEDIA QUERIES ----------------------------------*/
 
-/* responsive for large than 768px screen */
+/* ------------------------------------- For >768px Screen  ------------------------------*/
+
 @media (min-width: 768px) {
-  /* reused style */
+  /* ---------------- Resued Style ------------------*/
   .container {
     padding: 24px;
   }
@@ -806,7 +807,7 @@ article.container::before {
     right: 20px;
   }
 
-  /* header */
+  /* ----------------- Header -------------------*/
   .header-actions {
     gap: 24px;
   }
@@ -821,5 +822,72 @@ article.container::before {
 
   .search-view {
     clip-path: circle(3% at calc(100%-273px) 6%);
+  }
+
+  /* ------------------ Main -------------------*/
+  main {
+    height: calc(100vh-96px);
+    height: calc(100svh-96px);
+  }
+
+  article.container {
+    padding-block-start: 0;
+    grid-template-columns: 280px minmax(0, 1fr);
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .content-left {
+    position: sticky;
+    top: 0;
+  }
+
+  .section:not(:last-child) {
+    margin-block: 20px;
+  }
+
+  .forecast-card .card-item:not(:last-child) {
+    margin-block-end: 16px;
+  }
+
+  .highlight-list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .highlight-card:nth-child(-n + 2) {
+    grid-column: span 2;
+    height: 160px;
+  }
+
+  .highlight-card:nth-child(n + 3) {
+    height: 120px;
+  }
+
+  .highlights .m-icon {
+    font-size: 3.6rem;
+  }
+
+  .highlight-card.one .card-item {
+    width: 25%;
+    flex-direction: column-reverse;
+    gap: 8px;
+  }
+
+  .slider-container {
+    margin-inline: 0 -24px;
+    border-bottom-left-radius: var(--radius-16);
+    border-top-left-radius: var(--radius-16);
+  }
+
+  .slider-list::before {
+    display: none;
+  }
+
+  .slider-list::after {
+    min-width: 12px;
+  }
+
+  .hourly-forecast .card-sm {
+    padding: 16px;
   }
 }
