@@ -1047,3 +1047,9 @@ article.container::before {
     gap: 16px;
   }
 }
+
+/*------------------------------------- For >1400px Screen  ------------------------------*/
+
+@media(min-width:1400px){
+  
+}
