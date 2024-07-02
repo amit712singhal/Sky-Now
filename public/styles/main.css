@@ -923,7 +923,7 @@ article.container::before {
     column-gap: 24px;
   }
 
-  /* -------------------- Header ---------------------*/
+  /*-------------------- Header ---------------------*/
   .header .icon-btn {
     display: none;
   }
@@ -1010,5 +1010,40 @@ article.container::before {
 
   .search-view:is(:focus-within, :has(.view-list):focus-within) {
     filter: drop-shadow(var(--shadow-2));
+  }
+
+  /*-------------------- MAIN ---------------------*/
+  main {
+    height: calc(100vh - 120px);
+    height: calc(100svh - 120px);
+  }
+
+  article.container {
+    grid-template-columns: 360px minmax(0 1fr);
+    gap: 40px;
+  }
+
+  .current-weather .weather-icon {
+    width: 80px;
+  }
+
+  .forecast-card .title-2 {
+    --title-2: 2.2rem;
+  }
+
+  .highlight-card:nth-child(-n + 2) {
+    height: 200px;
+  }
+
+  .highlight-card:nth-child(n + 3) {
+    height: 150px;
+  }
+
+  .highlight-card .m-icon {
+    font-size: 4.8rem;
+  }
+
+  .slider-list {
+    gap: 16px;
   }
 }
