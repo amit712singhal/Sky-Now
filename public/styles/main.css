@@ -1019,7 +1019,7 @@ article.container::before {
   }
 
   article.container {
-    grid-template-columns: 360px minmax(0 1fr);
+    grid-template-columns: 360px minmax(0, 1fr);
     gap: 40px;
   }
 
@@ -1051,5 +1051,7 @@ article.container::before {
 /*------------------------------------- For >1400px Screen  ------------------------------*/
 
 @media(min-width:1400px){
-  
+  .highlight-list{
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
