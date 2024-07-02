@@ -465,8 +465,8 @@ body {
 /*------------------------------------------- MAIN -----------------------------------------*/
 
 main {
-  height: calc(100vh-80px);
-  height: calc(100svh-80px); /* for mobile browser */
+  height: calc(100vh - 80px);
+  height: calc(100svh - 80px); /* for mobile browser */
   overflow: hidden;
 }
 
@@ -776,3 +776,5 @@ article.container::before {
 .error-content .btn-primary {
   margin-block-start: 20px;
 }
+
+/*---------------------------------------- MEDIA QUERIES ----------------------------------*/
