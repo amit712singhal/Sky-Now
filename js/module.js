@@ -51,11 +51,12 @@ export const getDate = function (dateUnix, timezone) {
  * @returns {string} Time String {format: "HH AM/PM"}
  */
 
-export const getHours = function (timeUnix, timezone) {
-  const date = new Date((timeUnix, timezone) * 1000);
+export const getTime = function (timeUnix, timezone) {
+  const date = new Date((timeUnix + timezone) * 1000);
   const hours = date.getUTCHours();
+  const minutes = date.getUTCMinutes();
   const period = hours >= 12 ? "PM" : "AM";
-  return `${hours % 12 || 12} ${period}`;
+  return `${hours % 12 || 12}:${minutes} ${period}`;
 };
 
 /**

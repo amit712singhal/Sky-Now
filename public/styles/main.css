@@ -324,6 +324,19 @@ body {
   font-size: var(--label-2);
 }
 
+.fade-in {
+  animation: fade-in 1000ms ease forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /*-------------------------------------------- HEADER -------------------------------------*/
 
 .header .btn-primary .span {
@@ -1050,8 +1063,8 @@ article.container::before {
 
 /*------------------------------------- For >1400px Screen  ------------------------------*/
 
-@media(min-width:1400px){
-  .highlight-list{
+@media (min-width: 1400px) {
+  .highlight-list {
     grid-template-columns: repeat(4, 1fr);
   }
 }
