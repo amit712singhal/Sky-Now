@@ -12,7 +12,7 @@ const API_key = "af0348ed3ad216d028627277b50db13f";
 /**
  * Fetch Data From Server
  * @param { string } URL API url
- * @param {Fucntion} callback callback
+ * @param { Function } callback callback
  */
 
 export const fetchData = function (URL, callback) {
@@ -29,14 +29,14 @@ export const url = {
     return `https://api.openweathermap.org/data/2.5/forecast?${lat}&${lon}&units=metric`;
   },
   airPollution(lat, lon) {
-    return `https://api.openweathermap.org/data/2.5/air_pollution?${lat}&${lon}&units=metric`;
+    return `https://api.openweathermap.org/data/2.5/air_pollution?${lat}&${lon}`;
   },
   reverseGeo(lat, lon) {
     return `https://api.openweathermap.org/geo/1.0/reverse?${lat}&${lon}&limit=5`;
   },
 
   /**
-   * @param {string} query Search Query e.g. "India", "USA"
+   * @param {string} query Search Query e.g. "London", "New York"
    */
   geo(query) {
     return `https://api.openweathermap.org/geo/1.0/direct?q=${query}&limit=5`;

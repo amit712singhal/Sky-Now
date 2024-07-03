@@ -18,24 +18,24 @@ export const weekDayNames = [
 ];
 
 export const monthNames = [
-  "Jan",
-  "Feb",
-  "Mar",
-  "Apr",
+  "January",
+  "February",
+  "March",
+  "April",
   "May",
-  "Jun",
-  "Jul",
-  "Aug",
-  "Sep",
-  "Oct",
-  "Nov",
-  "Dec",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
 ];
 
 /**
  * @param {number} dateUnix Unix date in seconds
  * @param {number} timezone Timezone shift from UTC in seconds
- * @returns  {string} Date String {format: "Tuesday 2, Jul"}
+ * @returns {string} Date String {format: "Tuesday 2, Jul"}
  */
 
 export const getDate = function (dateUnix, timezone) {
@@ -51,7 +51,7 @@ export const getDate = function (dateUnix, timezone) {
  * @returns {string} Time String {format: "HH AM/PM"}
  */
 
-export const getTime = function (timeUnix, timezone) {
+export const getHours = function (timeUnix, timezone) {
   const date = new Date((timeUnix, timezone) * 1000);
   const hours = date.getUTCHours();
   const period = hours >= 12 ? "PM" : "AM";
@@ -63,7 +63,7 @@ export const getTime = function (timeUnix, timezone) {
  * @returns {number} kilometer/hours
  */
 
-export const mpsTOkmh = (mps) => {
+export const mps_to_kmh = (mps) => {
   const mph = mps * 3600;
   return mph / 1000;
 };
@@ -74,7 +74,6 @@ export const aqiText = {
     message:
       "Air quality is considered satisfactory, & air pollution possess little or no risk.",
   },
-
   2: {
     level: "Fair",
     message:

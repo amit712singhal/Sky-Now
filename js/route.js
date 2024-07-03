@@ -5,11 +5,11 @@
  * @author amit712singhal <rakshit.singhal@gmail.com>
  */
 
-`use strict`;
+"use strict";
 
 import { updateWeather, error404 } from "./app.js";
 
-const defaultLocation = "#/weather?lat=28.6667&lon=77.2167"; //Delhi, India
+const defaultLocation = "#/weather?lat=51.5073219&lon=-0.1276474"; //London
 
 const currentLocation = function () {
   window.navigator.geolocation.getCurrentPosition(
@@ -24,7 +24,6 @@ const currentLocation = function () {
 };
 
 /**
- *
  * @param {string} query Searched Query
  */
 const searchedLocation = (query) => updateWeather(...query.split("&"));
@@ -32,7 +31,7 @@ const searchedLocation = (query) => updateWeather(...query.split("&"));
 
 const routes = new Map([
   ["/current-location", currentLocation],
-  ["weather", searchedLocation],
+  ["/weather", searchedLocation],
 ]);
 
 const checkHash = function () {
