@@ -195,19 +195,19 @@ export const updateWeather = function (lat, lon) {
             <span class="m-icon">air</span>
             <ul class="card-list">
               <li class="card-item">
-                <p class="title-1">${Number(pm2_5).toPrecision(3)}</p>
+                <p class="title-1">${pm2_5.toPrecision(3)}</p>
                 <p class="label-1">PM<sub>2.5</sub></p>
               </li>
               <li class="card-item">
-                <p class="title-1">${Number(so2).toPrecision(3)}</p>
+                <p class="title-1">${so2.toPrecision(3)}</p>
                 <p class="label-1">SO<sub>2</sub></p>
               </li>
               <li class="card-item">
-                <p class="title-1">${Number(no2).toPrecision(3)}</p>
+                <p class="title-1">${no2.toPrecision(3)}</p>
                 <p class="label-1">NO<sub>2</sub></p>
               </li>
               <li class="card-item">
-                <p class="title-1">${Number(o3).toPrecision(3)}</p>
+                <p class="title-1">${o3.toPrecision(3)}</p>
                 <p class="label-1">O<sub>3</sub></p>
               </li>
             </ul>
@@ -279,6 +279,84 @@ export const updateWeather = function (lat, lon) {
       </div>
       `;
       highlightSection.appendChild(card);
+    });
+
+    /**
+     * 24 hour forecast section
+     */
+    fetchData(url.forecast(lat, lon), function (forecast) {
+      const {
+        list: forecastList,
+        city: { timezone },
+      } = forecast;
+
+      hourlySection.innerHTML = `
+      <h2 class="title-2">Today at</h2>
+            <div class="slider-container">
+              <ul class="slider-list" data-temp>
+              </ul>
+
+              <ul class="slider-list" data-wind>
+              </ul>
+            </div>
+      `;
+
+      for (const [index, data] of forecastList.entries()) {
+        if (index > 7) break;
+        const {
+          dt: dateTimeUnix,
+          main: { temp },
+          weather,
+          wind: { deg: windDirection, speed: windSpeed },
+        } = data;
+        const [{ icon, description }] = weather;
+
+        const tempLi = document.createElement("li");
+        tempLi.classList.add("slider-item");
+        tempLi.innerHTML = `
+        <div class="card card-sm slider-card">
+                    <p class="body-3">${module.getHours(
+                      dateTimeUnix,
+                      timezone
+                    )}</p>
+                    <img
+                      src="./public/images/weather_icons/${icon}.png"
+                      width="48"
+                      height="48"
+                      loading="lazy"
+                      title="${description}"
+                      alt="${description}"
+                      class="weather-icon"
+                    />
+                    <p class="body-3">${parseInt(temp)}&deg;</p>
+                  </div>
+        `;
+        hourlySection.querySelector("[data-temp]").appendChild(tempLi);
+
+        const windLi = document.createElement("li");
+        windLi.classList.add("slider-item");
+        windLi.innerHTML = `
+        <div class="card card-sm slider-card">
+                    <p class="body-3">${module.getHours(
+                      dateTimeUnix,
+                      timezone
+                    )}</p>
+                    <img
+                      src="./public/images/weather_icons/direction.png"
+                      width="48"
+                      height="48"
+                      loading="lazy"
+                      alt="direction"
+                      class="weather-icon"
+                      style = "transform: rotate(${windDirection - 180}deg)"
+                    />
+                    <p class="body-3">${parseInt(
+                      module.mps_to_kmh(windSpeed)
+                    )} km/h</p>
+                  </div>
+        `;
+        hourlySection.querySelector("[data-wind]").appendChild(windLi);
+      }
     });
   });
 };
