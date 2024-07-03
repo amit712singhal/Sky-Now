@@ -13,13 +13,13 @@
   --outline: #3e3d40;
   --bg-aqi-1: #55e755;
   --on-bg-aqi-1: #1f331f;
-  --bg-aqi-2: #e8dd67;
+  --bg-aqi-2: #f6f657;
   --on-bg-aqi-2: #33311f;
-  --bg-aqi-3: #daab64;
+  --bg-aqi-3: #bf9e60;
   --on-bg-aqi-3: #332b1f;
-  --bg-aqi-4: #e58989;
+  --bg-aqi-4: #e37ac2;
   --on-bg-aqi-4: #331f1f;
-  --bg-aqi-5: #ee5d4a;
+  --bg-aqi-5: #e66e5e;
   --on-bg-aqi-5: #2f1b25;
   --white: hsl(0, 0%, 100%);
   --white-alpha-4: hsla(0, 0%, 100%, 0.04);
