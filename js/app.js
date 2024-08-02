@@ -9,6 +9,24 @@
 import { fetchData, url } from "./api.js";
 import * as module from "./module.js";
 
+const cursorDot = document.querySelector("[data-cursor-dot]");
+const cursorOutline = document.querySelector("[data-cursor-outline]");
+
+window.addEventListener("mousemove", function (e) {
+  cursorDot.style.left = e.clientX + "px";
+  cursorDot.style.top = e.clientY + "px";
+  // cursorOutline.style.left = e.clientX + "px";
+  // cursorOutline.style.top = e.clientY + "px";
+  cursorOutline.animate({
+    left: e.clientX + "px",
+    top: e.clientY + "px",
+  },
+  {
+    duration: 200,
+    fill: "forwards",
+  });
+});
+
 /**
  * ------------------------------ Add event listener on multiple elements ------------------------------
  * @param {NodeList} elements Elements node array
@@ -211,7 +229,9 @@ export const updateWeather = function (lat, lon) {
                 </li>
               </ul>
             </div>
-            <span class="badge aqi-${aqi} label-${aqi}" title="${module.aqiText[aqi].message}">
+            <span class="badge aqi-${aqi} label-${aqi}" title="${
+        module.aqiText[aqi].message
+      }">
               ${module.aqiText[aqi].level}
             </span>
           </div>
@@ -379,7 +399,9 @@ export const updateWeather = function (lat, lon) {
               <p class="title-2">${parseInt(temp_max)}&deg;</p>
             </span>
           </div>
-          <p class="label-1">${date.getDate()} ${module.monthNames[date.getUTCMonth()]}</p>
+          <p class="label-1">${date.getDate()} ${
+          module.monthNames[date.getUTCMonth()]
+        }</p>
           <p class="label-1"> ${module.weekDayNames[date.getUTCDay()]}</p>
         `;
 

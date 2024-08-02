@@ -27,18 +27,14 @@
   --black-alpha-10: hsla(0, 0%, 0%, 0.1);
 
   /*--------- Gradient colors ---------*/
-  --gradient-1: linear-gradient(
-    180deg,
-    hsla(270, 5%, 7%, 0) 0%,
-    hsla(270, 5%, 7%, 0.8) 65%,
-    hsl(270, 5%, 7%) 100%
-  );
-  --gradient-2: linear-gradient(
-    180deg,
-    hsla(260, 5%, 12%, 0) 0%,
-    hsla(260, 5%, 12%, 0.8) 65%,
-    hsl(260, 5%, 12%) 100%
-  );
+  --gradient-1: linear-gradient(180deg,
+      hsla(270, 5%, 7%, 0) 0%,
+      hsla(270, 5%, 7%, 0.8) 65%,
+      hsl(270, 5%, 7%) 100%);
+  --gradient-2: linear-gradient(180deg,
+      hsla(260, 5%, 12%, 0) 0%,
+      hsla(260, 5%, 12%, 0.8) 65%,
+      hsl(260, 5%, 12%) 100%);
 
   /*--------- Typography ---------*/
   --ff-nunito-sans: "Nunito Sans", sans-serif;
@@ -123,6 +119,7 @@ sub {
   vertical-align: baseline;
   font-size: 0.75em;
 }
+
 sup {
   vertical-align: top;
   font-size: 0.75em;
@@ -140,6 +137,29 @@ body {
   font-size: var(--body-3);
   /* overflow: hidden; */
   height: 100vh;
+  cursor: none;
+}
+
+.cursor-dot {
+  width: 5px;
+  height: 5px;
+  background-color: white;
+}
+
+.cursor-outline {
+  width: 30px;
+  height: 30px;
+  border: 2px solid hsla(0, 0%, 100%, 0.5);
+}
+
+.cursor-dot, .cursor-outline {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 1;
 }
 
 :focus-visible {
@@ -153,7 +173,8 @@ body {
 
 ::-webkit-scrollbar {
   width: 6px;
-  height: 6px; /* horizontal scrollbar */
+  height: 6px;
+  /* horizontal scrollbar */
 }
 
 ::-webkit-scrollbar-thumb {
@@ -210,6 +231,7 @@ body {
 .has-state {
   position: relative;
 }
+
 .has-state::before {
   content: "";
   position: absolute;
@@ -222,6 +244,7 @@ body {
 .has-state:hover {
   box-shadow: var(--shadow-1);
 }
+
 .has-state:hover::before {
   background-color: var(--white-alpha-4);
 }
@@ -229,14 +252,17 @@ body {
 .has-state:is(:focus, :focus-visible) {
   box-shadow: none;
 }
+
 .has-state:is(:focus, :focus-visible)::before {
   background-color: var(--white-alpha-8);
   animation: ripple 250ms ease forwards;
 }
+
 @keyframes ripple {
   0% {
     clip-path: circle(0% at 50% 50%);
   }
+
   100% {
     clip-path: circle(100% at 50% 50%);
   }
@@ -264,6 +290,7 @@ body {
   color: var(--on-surface-variant);
   cursor: not-allowed;
 }
+
 .btn-primary[disabled]::before {
   display: none;
 }
@@ -332,6 +359,7 @@ body {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -411,6 +439,7 @@ body {
   0% {
     transform: translateY(-50%) rotate(0);
   }
+
   100% {
     transform: translateY(-50%) rotate(1turn);
   }
@@ -442,7 +471,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.search-wrapper > .m-icon {
+.search-wrapper>.m-icon {
   display: none;
 }
 
@@ -479,7 +508,8 @@ body {
 
 main {
   height: calc(100vh - 80px);
-  height: calc(100svh - 80px); /* for mobile browser */
+  height: calc(100svh - 80px);
+  /* for mobile browser */
   overflow: hidden;
 }
 
@@ -489,7 +519,8 @@ article.container {
   grid-template-columns: minmax(0, 1fr);
   gap: 20px;
   height: 100%;
-  overflow-y: auto; /* for firefox */
+  overflow-y: auto;
+  /* for firefox */
   overflow-y: overlay;
 }
 
@@ -534,7 +565,7 @@ article.container::before {
   margin-inline: auto;
 }
 
-.current-weather-card > .body-3 {
+.current-weather-card>.body-3 {
   text-transform: capitalize;
 }
 
@@ -582,7 +613,7 @@ article.container::before {
   font-weight: var(--weight-semiBold);
 }
 
-.forecast-card .card-item > .label-1 {
+.forecast-card .card-item>.label-1 {
   width: 100%;
   text-align: right;
 }
@@ -794,21 +825,25 @@ article.container::before {
 
 /*-------------------------------------- For >768px Screen --------------------------------*/
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
+
   /* ---------------- Resued Style ------------------*/
   .container {
     padding: 24px;
   }
+
   .title-1 {
     --title-1: 2.4rem;
   }
 
-  .section > .title-2 {
+  .section>.title-2 {
     margin-block-end: 16px;
   }
+
   .card-lg {
     padding: 24px;
   }
+
   .card-sm {
     padding: 20px;
     display: grid;
@@ -908,6 +943,7 @@ article.container::before {
 /*------------------------------------- For >1200px Screen  ------------------------------*/
 
 @media (min-width: 1200px) {
+
   /*---------------- Custom Style ------------------*/
   :root {
     /*--------------- Font Size --------------------*/
@@ -969,7 +1005,7 @@ article.container::before {
     border-block-end: none;
   }
 
-  .search-wrapper > .m-icon {
+  .search-wrapper>.m-icon {
     display: block;
   }
 

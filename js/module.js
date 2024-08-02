@@ -64,7 +64,7 @@ export const getTime = function (timeUnix, timezone) {
   const minutes = date.getUTCMinutes();
   const period = hours >= 12 ? "PM" : "AM";
   return `${hours % 12 || 12}:${minutes} ${period}`;
-};
+}; 
 
 /**
  * @param {number} mps meter/seconds
