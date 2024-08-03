@@ -17,8 +17,7 @@
 Sky Now is a web application that provides real-time weather updates based on your current location. It gives you detailed weather information including temperature, humidity, wind speed, and more.P
 
 <details>
-<summary>
-<h2>Table of Contents</h2>
+     <summary><h2>Table of Contents</h2></summary>
 
 - [Features](#features)
 - [Demo](#demo)
@@ -27,8 +26,6 @@ Sky Now is a web application that provides real-time weather updates based on yo
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
 - [License](#license)
-
-</summary>
 </details>
 
 ## Features
