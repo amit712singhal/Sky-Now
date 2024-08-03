@@ -1,16 +1,35 @@
-# Sky Now
+<p align="center"><img align="center" width="280" src="./public/images/logo.png"/></p>
+<p align="center"><img align="center" width="280" src="./public/images/logo-white.png#gh-light-mode-only"/></p>
+<h3 align="center">Get Live Weather Updates: Real-Time OpenWeather App</h3>
+<hr>
 
-Sky Now is a web application that provides real-time weather updates based on your current location. It gives you detailed weather information including temperature, humidity, wind speed, and more.
+<div align="center">
+<img src="https://custom-icon-badges.demolab.com/github/stars/amit712singhal/sky-now?label=Stars&labelColor=302d41&color=add8e6&logoColor=white&logo=star&style=for-the-badge"  />
+<img src="https://custom-icon-badges.demolab.com/github/issues/amit712singhal/sky-now?label=Issues&labelColor=302d41&color=90ee90&logoColor=white&logo=issue&style=for-the-badge"  />
+<img src="https://custom-icon-badges.demolab.com/github/issues-pr/amit712singhal/sky-now?&label=Pull%20requests&labelColor=302d41&color=ffb6c1&logoColor=white&logo=git-pull-request&style=for-the-badge"  />
+<img src="https://custom-icon-badges.demolab.com/github/forks/amit712singhal/sky-now?&label=forks&labelColor=302d41&color=ffa07a&logoColor=white&logo=fork&style=for-the-badge"  />
+<img src="https://custom-icon-badges.demolab.com/github/contributors/amit712singhal/sky-now?label=Contributors&labelColor=302d41&color=e6e6fa&logoColor=white&logo=people&style=for-the-badge"/>
+<img src="https://custom-icon-badges.demolab.com/github/license/amit712singhal/sky-now?label=License&labelColor=302d41&color=f0e68c&logoColor=white&logo=people&style=for-the-badge"/>
+<img src="https://custom-icon-badges.demolab.com/github/last-commit/amit712singhal/sky-now?label=last%20commit&labelColor=302d41&color=ffefd5&logoColor=white&logo=people&style=for-the-badge"/>
 
-## Table of Contents
+</div>
+
+Sky Now is a web application that provides real-time weather updates based on your current location. It gives you detailed weather information including temperature, humidity, wind speed, and more.P
+
+<details>
+<summary>
+<h2>Table of Contents</h2>
 
 - [Features](#features)
-- [Live Demo](#live-demo)
+- [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
 - [License](#license)
+
+</summary>
+</details>
 
 ## Features
 
@@ -20,7 +39,9 @@ Sky Now is a web application that provides real-time weather updates based on yo
 - Supports multiple weather parameters like temperature, humidity, wind speed, etc.
 - Easy access to weather data for the current location
 
-## Live Demo
+## Demo
+
+![demo](public/images/demo.png)
 
 Check out the live demo [here](https://amit712singhal.github.io/Sky-Now/#/current-location).
 
