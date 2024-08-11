@@ -11,37 +11,27 @@
 <img src="https://custom-icon-badges.demolab.com/github/contributors/amit712singhal/sky-now?label=Contributors&labelColor=302d41&color=e6e6fa&logoColor=white&logo=people&style=for-the-badge"/>
 <img src="https://custom-icon-badges.demolab.com/github/license/amit712singhal/sky-now?label=License&labelColor=302d41&color=f0e68c&logoColor=white&logo=people&style=for-the-badge"/>
 <img src="https://custom-icon-badges.demolab.com/github/last-commit/amit712singhal/sky-now?label=last%20commit&labelColor=302d41&color=ffefd5&logoColor=white&logo=people&style=for-the-badge"/>
-
 </div>
 
-Sky Now is a web application that provides real-time weather updates based on your current location. It gives you detailed weather information including temperature, humidity, wind speed, and more.P
+Sky Now is a web application that provides real-time weather updates based on your current location. It gives you detailed weather information including temperature, humidity, wind speed, and more. Check out the live demo [here](https://amit712singhal.github.io/Sky-Now/).
+
+## Preview
+
+### Desktop
+
+![Destop Preview](public/images/demo.png)
 
 <details>
      <summary><h2>Table of Contents</h2></summary>
-
-- [Features](#features)
-- [Demo](#demo)
+     
 - [Installation](#installation)
 - [Usage](#usage)
+- [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
 - [License](#license)
 </details>
-
-## Features
-
-- Real-time weather updates
-- User-friendly interface
-- Detailed weather information
-- Supports multiple weather parameters like temperature, humidity, wind speed, etc.
-- Easy access to weather data for the current location
-
-## Demo
-
-![demo](public/images/demo.png)
-
-Check out the live demo [here](https://amit712singhal.github.io/Sky-Now/#/current-location).
-
+  
 ## Installation
 
 To run this project locally, follow these steps:
@@ -71,12 +61,22 @@ To run this project locally, follow these steps:
 
     To view the weather for a different location, enter the location name or city in the search bar and press Enter. The application will fetch and display the weather information for the searched location.
 
+## Features
+
+- Real-time weather updates
+- User-friendly interface
+- Detailed weather information
+- Supports multiple weather parameters like temperature, humidity, wind speed, etc.
+- Easy access to weather data for the current location
+
 ## Technologies Used
 
-- HTML5: For structuring the web content
-- CSS3: For styling the web content
-- JavaScript: For making the web content interactive
-- OpenWeatherMap API: For fetching real-time weather data
+<div style="display: flex; flex-wrap: wrap; gap: 5px;">
+     <img src="https://img.shields.io/badge/HTML-%23F06529.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
+     <img src="https://img.shields.io/badge/CSS-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
+     <img src="https://custom-icon-badges.herokuapp.com/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+     <img src="https://custom-icon-badges.herokuapp.com/badge/OpenWeather%20API-D98457.svg?style=for-the-badge&logo=openweather&logoColor=white" alt="JavaScript">
+</div>
 
 ## Contributing
 
@@ -87,6 +87,38 @@ Contributions to this project are welcome! If you find any bugs or have suggesti
 3. Commit your changes (`git commit -am 'Add some feature'`).
 4. Push to the branch (`git push origin feature/YourFeature`).
 5. Create a new Pull Request.
+
+## Connect with Me
+
+I love connecting with new people and exploring new opportunities. Feel free to reach out to me through any of the platforms below:
+
+<table>
+    <tr>
+        <td>
+            <a href="https://github.com/amit712singhal">
+                <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg"
+                    height="48" width="48" alt="GitHub" />
+            </a>
+        </td>
+        <td>
+            <a href="https://www.linkedin.com/in/singhal-amit/">
+                <img src="https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/linkedin.svg"
+                    height="48" width="48" alt="LinkedIn" />
+            </a>
+        </td>
+        <td>
+            <a href="https://www.instagram.com/_singhal_amit/" target="blank"><img align="center"
+                    src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"
+                    alt="instagram" height="48" width="48" /></a>
+        </td>
+        <td>
+            <a href="mailto:rakshit.singhal712@gmail.com">
+                <img src="https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/gmail.svg"
+                    height="48" width="48" alt="Email" />
+            </a>
+        </td>
+    </tr>
+</table>
 
 ## License
 
