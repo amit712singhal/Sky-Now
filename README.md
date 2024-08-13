@@ -23,15 +23,18 @@ Sky Now is a web application that provides real-time weather updates based on yo
 
 <details>
      <summary><h2>Table of Contents</h2></summary>
-     
+
+- [Preview](#preview)
+  - [Desktop](#desktop)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
+- [Connect with Me](#connect-with-me)
 - [License](#license)
 </details>
-  
+
 ## Installation
 
 To run this project locally, follow these steps:
@@ -42,7 +45,7 @@ To run this project locally, follow these steps:
    git clone https://github.com/amit712singhal/Sky-Now.git
    cd Sky-Now
    ```
-   
+
 2. **Open index.html in your web browser**
 
       You can either open the index.html file directly in your browser or use a local server like [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VSCode to serve the files.
@@ -52,7 +55,7 @@ To run this project locally, follow these steps:
 1. **Grant location permission**
 
      Once you've opened the application, it will request access to your device's location. Grant permission by clicking "Allow" or "Grant Access".
- 
+
 2. **View current weather**
 
      After granting permission, the application will display the current weather information for your location, including temperature, humidity, wind speed, and more.
