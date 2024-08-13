@@ -9,8 +9,8 @@
 <img src="https://custom-icon-badges.demolab.com/github/issues-pr/amit712singhal/sky-now?&label=Pull%20requests&labelColor=302d41&color=ffb6c1&logoColor=white&logo=git-pull-request&style=for-the-badge"  />
 <img src="https://custom-icon-badges.demolab.com/github/forks/amit712singhal/sky-now?&label=forks&labelColor=302d41&color=ffa07a&logoColor=white&logo=fork&style=for-the-badge"  />
 <img src="https://custom-icon-badges.demolab.com/github/contributors/amit712singhal/sky-now?label=Contributors&labelColor=302d41&color=e6e6fa&logoColor=white&logo=people&style=for-the-badge"/>
-<img src="https://custom-icon-badges.demolab.com/github/license/amit712singhal/sky-now?label=License&labelColor=302d41&color=f0e68c&logoColor=white&logo=people&style=for-the-badge"/>
-<img src="https://custom-icon-badges.demolab.com/github/last-commit/amit712singhal/sky-now?label=last%20commit&labelColor=302d41&color=ffefd5&logoColor=white&logo=people&style=for-the-badge"/>
+<img src="https://custom-icon-badges.demolab.com/github/license/amit712singhal/sky-now?label=LICENSE&labelColor=302d41&color=f0e68c&logoColor=white&logo=people&style=for-the-badge"/>
+<img src="https://custom-icon-badges.demolab.com/github/last-commit/amit712singhal/Sky-Now?label=last%20commit&labelColor=302d41&color=ffefd5&logoColor=white&logo=people&style=for-the-badge"/>
 </div>
 
 Sky Now is a web application that provides real-time weather updates based on your current location. It gives you detailed weather information including temperature, humidity, wind speed, and more.
