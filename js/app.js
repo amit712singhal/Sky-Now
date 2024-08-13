@@ -17,14 +17,16 @@ window.addEventListener("mousemove", function (e) {
   cursorDot.style.top = e.clientY + "px";
   // cursorOutline.style.left = e.clientX + "px";
   // cursorOutline.style.top = e.clientY + "px";
-  cursorOutline.animate({
-    left: e.clientX + "px",
-    top: e.clientY + "px",
-  },
-  {
-    duration: 200,
-    fill: "forwards",
-  });
+  cursorOutline.animate(
+    {
+      left: e.clientX + "px",
+      top: e.clientY + "px",
+    },
+    {
+      duration: 200,
+      fill: "forwards",
+    }
+  );
 });
 
 /**
@@ -156,12 +158,16 @@ export const updateWeather = function (lat, lon) {
     const card = document.createElement("div");
     card.classList.add("card", "card-lg", "current-weather-card");
 
+    // Determine the icon based on the description
+    const weatherIcon =
+      description === "broken clouds" ? "04.0d" : icon;
+
     card.innerHTML = `
       <h2 class="title-2 card-title">Now</h2>
       <div class="weapper">
         <p class="heading">${parseInt(temp)}&deg;<sup>c</sup></p>
         <img
-          src="./public/images/weather_icons/${icon}.png"
+          src="./public/images/weather_icons/${weatherIcon}.png"
           width="64"
           height="64"
           alt="${description}"
@@ -323,7 +329,9 @@ export const updateWeather = function (lat, lon) {
           weather,
           wind: { deg: windDirection, speed: windSpeed },
         } = data;
-        const [{ icon, description }] = weather;
+        const [ { icon, description } ] = weather;
+        
+        const weatherIcon = description === "broken clouds" ? "04.0d" : icon;
 
         const tempLi = document.createElement("li");
         tempLi.classList.add("slider-item");
@@ -331,7 +339,7 @@ export const updateWeather = function (lat, lon) {
           <div class="card card-sm slider-card">
             <p class="body-3">${module.getHours(dateTimeUnix, timezone)}</p>
             <img
-              src="./public/images/weather_icons/${icon}.png"
+              src="./public/images/weather_icons/${weatherIcon}.png"
               width="48"
               height="48"
               loading="lazy"
@@ -381,14 +389,17 @@ export const updateWeather = function (lat, lon) {
           weather,
           dt_txt,
         } = forecastList[i];
-        const [{ icon, description }] = weather;
+        const [ { icon, description } ] = weather;
+        
+        const weatherIcon = description === "broken clouds" ? "04.0d" : icon;
+
         const date = new Date(dt_txt);
         const li = document.createElement("li");
         li.classList.add("card-item");
         li.innerHTML = `
           <div class="icon-wrapper">
             <img
-              src="./public/images/weather_icons/${icon}.png"
+              src="./public/images/weather_icons/${weatherIcon}.png"
               width="36"
               height="36"
               alt="${description}"
