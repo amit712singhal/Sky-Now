@@ -1,10 +1,10 @@
-<p align="center"><img align="center" width="280" src="./public/images/logo.png"/></p>
-<p align="center"><img align="center" width="280" src="./public/images/logo-white.png#gh-light-mode-only"/></p>
+<p align="center"><img align="center" width="280" src="./public/images/logo-dark.png"/></p>
+<p align="center"><img align="center" width="280" src="./public/images/logo-light.png#gh-light-mode-only"/></p>
 <h3 align="center">Get Live Weather Updates: Real-Time OpenWeather App</h3>
 <hr>
 
 <div align="center">
-<img src="https://custom-icon-badges.demolab.com/github/stars/amit712singhal/sky-now?label=Stars&labelColor=302d41&color=add8e6&logoColor=white&logo=star&style=for-the-badge"  />
+<img src="https://custom-icon-badges.demolab.com/github/stars/amit712singhal/Sky-Now?label=Stars&labelColor=302d41&color=add8e6&logoColor=white&logo=star&style=for-the-badge"  />
 <img src="https://custom-icon-badges.demolab.com/github/issues/amit712singhal/sky-now?label=Issues&labelColor=302d41&color=90ee90&logoColor=white&logo=issue&style=for-the-badge"  />
 <img src="https://custom-icon-badges.demolab.com/github/issues-pr/amit712singhal/sky-now?&label=Pull%20requests&labelColor=302d41&color=ffb6c1&logoColor=white&logo=git-pull-request&style=for-the-badge"  />
 <img src="https://custom-icon-badges.demolab.com/github/forks/amit712singhal/sky-now?&label=forks&labelColor=302d41&color=ffa07a&logoColor=white&logo=fork&style=for-the-badge"  />

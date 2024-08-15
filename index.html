@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,19 +11,12 @@
     <meta name="description" content="about current weather around globe" />
 
     <!----------------------------------------- Web_Icon ------------------------------------------>
-    <link
-      rel="shortcut icon"
-      href="./public/images/web_icon.svg"
-      type="image/svg+xml"
-    />
+    <link rel="shortcut icon" href="./public/images/web_icon.svg" type="image/svg+xml" />
 
     <!------------------------------------- Google Font Links ------------------------------------->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet" />
 
     <!----------------------------------------- Custom_CSS ---------------------------------------->
     <link rel="stylesheet" href="./public/styles/main.css" />
@@ -41,31 +35,15 @@
     <!------------------------------------------- HEADER ------------------------------------------>
     <header class="header">
       <div class="container">
-        <a href="#" class="logo"
-          ><img
-            src="./public/images/logo.png"
-            width="360"
-            height="50"
-            alt="logo"
-          />
+        <a href="#" class="logo"><img src="./public/images/logo-dark.png" width="360" height="50" alt="logo" />
         </a>
 
         <div class="search-view" data-search-view>
           <div class="search-wrapper">
-            <input
-              type="search"
-              name="search"
-              placeholder="Search City ..."
-              autocomplete="off"
-              class="search-field"
-              data-search-field
-            />
+            <input type="search" name="search" placeholder="Search City ..." autocomplete="off" class="search-field"
+              data-search-field />
             <span class="m-icon leading-icon">search</span>
-            <button
-              class="icon-btn leading-icon has-state"
-              aria-label="close search"
-              data-search-toggler
-            >
+            <button class="icon-btn leading-icon has-state" aria-label="close search" data-search-toggler>
               <span class="m-icon">arrow_back</span>
             </button>
           </div>
@@ -73,18 +51,10 @@
         </div>
 
         <div class="header-actions">
-          <button
-            class="icon-btn has-state"
-            aria-label="open search"
-            data-search-toggler
-          >
+          <button class="icon-btn has-state" aria-label="open search" data-search-toggler>
             <span class="m-icon">search</span>
           </button>
-          <a
-            href="#/current-location"
-            class="btn-primary has-state"
-            data-current-location-btn
-          >
+          <a href="#/current-location" class="btn-primary has-state" data-current-location-btn>
             <span class="m-icon">my_location</span>
             <span class="span">Current Location</span>
           </a>
@@ -98,35 +68,19 @@
         <!-- Left Section -->
         <div class="content-left">
           <!--------------------------------- CURRENT-WEATHER ------------------------------------->
-          <section
-            class="section current-weather"
-            aria-label="current weather"
-            data-current-weather
-          ></section>
+          <section class="section current-weather" aria-label="current weather" data-current-weather></section>
 
           <!------------------------------------ FORECAST ----------------------------------------->
-          <section
-            class="section forecast"
-            aria-labelledby="forecast-label"
-            data-5-day-forecast
-          ></section>
+          <section class="section forecast" aria-labelledby="forecast-label" data-5-day-forecast></section>
         </div>
 
         <!-- Right Section -->
         <div class="content-right">
           <!----------------------------------- HIGHLIGHTS ---------------------------------------->
-          <section
-            class="section highlights"
-            aria-labelledby="highlights-label"
-            data-highlights
-          ></section>
+          <section class="section highlights" aria-labelledby="highlights-label" data-highlights></section>
 
           <!--------------------------------- HOURLY-FORECAST ------------------------------------->
-          <section
-            class="section hourly-forecast"
-            aria-label="hourly-forecast"
-            data-hourly-forecast
-          ></section>
+          <section class="section hourly-forecast" aria-label="hourly-forecast" data-hourly-forecast></section>
 
           <!------------------------------------- FOOTER ------------------------------------------>
           <footer class="footer">
@@ -135,18 +89,8 @@
             </p>
             <p class="body-3">
               Powered By
-              <a
-                href="https://openweathermap.org/api"
-                title="Free OpenWeather API"
-                target="_blank"
-                rel="noopener"
-                ><img
-                  src="./public/images/openweather.png"
-                  width="150"
-                  height="30"
-                  loading="lazy"
-                  alt="OpenWeather"
-              /></a>
+              <a href="https://openweathermap.org/api" title="Free OpenWeather API" target="_blank" rel="noopener"><img
+                  src="./public/images/openweather.png" width="150" height="30" loading="lazy" alt="OpenWeather" /></a>
             </p>
           </footer>
         </div>
@@ -165,4 +109,5 @@
       </a>
     </section>
   </body>
+
 </html>
