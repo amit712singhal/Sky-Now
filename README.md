@@ -125,6 +125,18 @@ I love connecting with new people and exploring new opportunities. Feel free to 
     </tr>
 </table>
 
+<!--
+# Thanks to all Contributors 💪
+
+Thanks a lot for spending your time helping `Sky-Now` grow. Happy Coding 🍻
+
+[![Contributors](https://contrib.rocks/image?repo=amit712singhal/Sky-Now)](https://github.com/amit712singhal/Sky-Now/edit/develop/README.md)
+-->
+
+# Thanks to all Stargazers ⭐️
+
+[![Thanks to all stargazers](https://git-lister.onrender.com/api/stars/amit712singhal/Sky-Now?limit=10)](https://github.com/amit712singhal/Sky-Now)
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
