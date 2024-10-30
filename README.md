@@ -21,7 +21,7 @@ Check out the live demo [here](https://amit712singhal.github.io/Sky-Now/).
 
 | Desktop | Mobile |
 |:-------------------------:|:-------------------------:|
-| <img src="./public/images/preview/preview-Desktop.png" width="800"> | <img src="./public/images/preview/preview-Mobile.png" height="500"> |
+| <img src="./public/images/preview/preview-Desktop.png" width="800" > | <img src="./public/images/preview/preview-Mobile.png" height="450"> |
 
 <details>
      <summary><h2>Table of Contents</h2></summary>
