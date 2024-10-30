@@ -19,15 +19,13 @@ Check out the live demo [here](https://amit712singhal.github.io/Sky-Now/).
 
 ## Preview
 
-### Desktop
-
-![Destop Preview](public/images/demo.png)
+| Desktop | Mobile |
+|:-------------------------:|:-------------------------:|
+| <img src="./public/images/preview/preview-Desktop.png" width="800"> | <img src="./public/images/preview/preview-Mobile.png" height="500"> |
 
 <details>
      <summary><h2>Table of Contents</h2></summary>
-
-- [Preview](#preview)
-  - [Desktop](#desktop)
+     
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
@@ -126,17 +124,15 @@ I love connecting with new people and exploring new opportunities. Feel free to 
     </tr>
 </table>
 
-<!--
-# Thanks to all Contributors 💪
-
-Thanks a lot for spending your time helping `Sky-Now` grow. Happy Coding 🍻
-
-[![Contributors](https://contrib.rocks/image?repo=amit712singhal/Sky-Now)](https://github.com/amit712singhal/Sky-Now/edit/develop/README.md)
--->
-
 # Thanks to all Stargazers ⭐️
 
-[![Thanks to all stargazers](https://git-lister.onrender.com/api/stars/amit712singhal/Sky-Now?limit=10)](https://github.com/amit712singhal/Sky-Now)
+<a href="https://star-history.com/#amit712singhal/Sky-Now&Timeline">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=amit712singhal/Sky-Now&type=Timeline&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=amit712singhal/Sky-Now&type=Timeline" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=amit712singhal/Sky-Now&type=Timeline" />
+ </picture>
+</a>
 
 ## License
 
