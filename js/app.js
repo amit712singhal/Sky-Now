@@ -17,11 +17,12 @@ document.addEventListener( 'DOMContentLoaded', () =>
   {
     const errorHeading = errorSection.querySelector( '.mobile-error' );
 
-    const mobileMessage = document.createElement( 'h4' );
-    mobileMessage.className = 'mobile-error-message body-1';
+    const mobileMessage = document.createElement( 'h1' );
+    mobileMessage.className = 'mobile-error-message';
     mobileMessage.textContent = 'ERROR: 170V380085';
-
+    const lineBreak = document.createElement( 'br' );
     errorHeading.replaceWith( mobileMessage );
+    mobileMessage.after( lineBreak );
   }
 
   const cursorDot = document.querySelector( '.cursor-dot' );
