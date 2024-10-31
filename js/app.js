@@ -9,24 +9,47 @@
 import { fetchData, url } from "./api.js";
 import * as module from "./module.js";
 
-const cursorDot = document.querySelector("[data-cursor-dot]");
-const cursorOutline = document.querySelector("[data-cursor-outline]");
+/* Add this JavaScript to handle cursor visibility */
+document.addEventListener('DOMContentLoaded', () => {
+  const cursorDot = document.querySelector('.cursor-dot');
+  const cursorOutline = document.querySelector('.cursor-outline');
 
-window.addEventListener("mousemove", function (e) {
-  cursorDot.style.left = e.clientX + "px";
-  cursorDot.style.top = e.clientY + "px";
-  // cursorOutline.style.left = e.clientX + "px";
-  // cursorOutline.style.top = e.clientY + "px";
-  cursorOutline.animate(
-    {
-      left: e.clientX + "px",
-      top: e.clientY + "px",
-    },
-    {
-      duration: 200,
-      fill: "forwards",
-    }
-  );
+  // Only initialize if we're not on a touch device
+  if (window.matchMedia('(pointer: fine)').matches) {
+    // Show cursors when mouse enters the window
+    document.addEventListener('mouseenter', () => {
+      cursorDot.style.opacity = '1';
+      cursorOutline.style.opacity = '1';
+    });
+
+    // Hide cursors when mouse leaves the window
+    document.addEventListener('mouseleave', () => {
+      cursorDot.style.opacity = '0';
+      cursorOutline.style.opacity = '0';
+    });
+
+    // Update cursor position
+    document.addEventListener('mousemove', (e) => {
+      // Check if the mouse is within the viewport
+      if (e.clientY >= 0 &&
+          e.clientX >= 0 &&
+          e.clientX <= window.innerWidth &&
+          e.clientY <= window.innerHeight) {
+        cursorDot.style.opacity = '1';
+        cursorOutline.style.opacity = '1';
+
+        // Update position
+        cursorDot.style.left = e.clientX + 'px';
+        cursorDot.style.top = e.clientY + 'px';
+        cursorOutline.style.left = e.clientX + 'px';
+        cursorOutline.style.top = e.clientY + 'px';
+      } else {
+        // Hide cursors if mouse is outside viewport
+        cursorDot.style.opacity = '0';
+        cursorOutline.style.opacity = '0';
+      }
+    });
+  }
 });
 
 /**
@@ -330,7 +353,7 @@ export const updateWeather = function (lat, lon) {
           wind: { deg: windDirection, speed: windSpeed },
         } = data;
         const [ { icon, description } ] = weather;
-        
+
         const weatherIcon = description === "broken clouds" ? "04.0d" : icon;
 
         const tempLi = document.createElement("li");
@@ -390,7 +413,7 @@ export const updateWeather = function (lat, lon) {
           dt_txt,
         } = forecastList[i];
         const [ { icon, description } ] = weather;
-        
+
         const weatherIcon = description === "broken clouds" ? "04.0d" : icon;
 
         const date = new Date(dt_txt);
