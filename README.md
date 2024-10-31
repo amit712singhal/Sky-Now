@@ -18,10 +18,7 @@ Sky Now is a web application that provides real-time weather updates based on yo
 Check out the live demo [here](https://amit712singhal.github.io/Sky-Now/).
 
 ## Preview
-
-| Desktop | Mobile |
-|:-------------------------:|:-------------------------:|
-| <img src="./public/images/preview/preview-Desktop.png" width="800" > | <img src="./public/images/preview/preview-Mobile.png" height="450"> |
+ <img src="./public/images/preview/preview-Desktop.png" >
 
 <details>
      <summary><h2>Table of Contents</h2></summary>
