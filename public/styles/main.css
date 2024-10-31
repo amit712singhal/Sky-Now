@@ -140,6 +140,7 @@ body {
   cursor: none;
 }
 
+/* Base cursor styles */
 .cursor-dot {
   width: 5px;
   height: 5px;
@@ -152,7 +153,8 @@ body {
   border: 2px solid hsla(0, 0%, 100%, 0.5);
 }
 
-.cursor-dot, .cursor-outline {
+.cursor-dot,
+.cursor-outline {
   position: fixed;
   top: 0;
   left: 0;
@@ -160,6 +162,18 @@ body {
   border-radius: 50%;
   pointer-events: none;
   z-index: 1000;
+  opacity: 0;
+  /* Hide by default */
+  transition: opacity 0.3s ease;
+  /* Smooth transition for hiding/showing */
+}
+
+@media (hover: none) and (pointer: coarse) {
+
+  .cursor-dot,
+  .cursor-outline {
+    display: none !important;
+  }
 }
 
 :focus-visible {
@@ -870,10 +884,6 @@ article.container::before {
 
   .search-view {
     clip-path: circle(3% at calc(100%-273px) 6%);
-  }
-
-  .cursor-dot, .cursor-outline {
-    visibility: hidden;
   }
 
   /*------------------ Main -------------------*/
