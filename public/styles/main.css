@@ -168,7 +168,14 @@ body {
   /* Smooth transition for hiding/showing */
 }
 
+.mobile-error-message {
+  display: none;
+}
+
 @media (hover: none) and (pointer: coarse) {
+  .mobile-error {
+    display: none;
+  }
 
   .cursor-dot,
   .cursor-outline {
