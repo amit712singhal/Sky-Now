@@ -18,7 +18,7 @@ document.addEventListener( 'DOMContentLoaded', () =>
     const errorHeading = errorSection.querySelector( '.mobile-error' );
 
     const mobileMessage = document.createElement( 'h4' );
-    mobileMessage.className = 'mobile-error-message heading';
+    mobileMessage.className = 'mobile-error-message body-1';
     mobileMessage.textContent = 'ERROR: 170V380085';
 
     errorHeading.replaceWith( mobileMessage );
