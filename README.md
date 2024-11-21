@@ -125,8 +125,8 @@ I love connecting with new people and exploring new opportunities. Feel free to 
 
 <a href="https://star-history.com/#amit712singhal/Sky-Now&Timeline">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=amit712singhal/Sky-Now&type=Timeline&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=amit712singhal/Sky-Now&type=Timeline" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=amit712singhal/Sky-Now&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=amit712singhal/Sky-Now" />
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=amit712singhal/Sky-Now&type=Timeline" />
  </picture>
 </a>
