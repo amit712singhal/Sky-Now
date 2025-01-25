@@ -27,7 +27,7 @@ Check out the live demo [here](https://amit712singhal.github.io/Sky-Now/).
 - [Usage](#usage)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
+- [Contribution](#contributing)
 - [Connect with Me](#connect-with-me)
 - [License](#license)
 
