@@ -21,7 +21,7 @@ Check out the live demo [here](https://amit712singhal.github.io/Sky-Now/).
  <img src="./public/images/preview/preview-Desktop.gif" >
 
 <details>
-     <summary><h2>Table of Contents</h2></summary>
+     <summary><h3>Table of Contents</h3></summary>
      
 - [Installation](#installation)
 - [Usage](#usage)
@@ -79,7 +79,17 @@ To run this project locally, follow these steps:
      <img src="https://custom-icon-badges.herokuapp.com/badge/OpenWeather%20API-D98457.svg?style=for-the-badge&logo=openweather&logoColor=white" alt="JavaScript">
 </div>
 
-## Contributing
+### Thanks to all Stargazers ⭐️
+
+<a href="https://star-history.com/#amit712singhal/Sky-Now&Timeline">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=amit712singhal/Sky-Now&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=amit712singhal/Sky-Now" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=amit712singhal/Sky-Now&type=Timeline" />
+ </picture>
+</a>
+
+## Contribution
 
 Contributions to this project are welcome! If you find any bugs or have suggestions for improvements, please create an issue or submit a pull request.
 
@@ -120,16 +130,6 @@ I love connecting with new people and exploring new opportunities. Feel free to 
         </td>
     </tr>
 </table>
-
-# Thanks to all Stargazers ⭐️
-
-<a href="https://star-history.com/#amit712singhal/Sky-Now&Timeline">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=amit712singhal/Sky-Now&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=amit712singhal/Sky-Now" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=amit712singhal/Sky-Now&type=Timeline" />
- </picture>
-</a>
 
 ## License
 
