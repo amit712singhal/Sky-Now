@@ -1,6 +1,6 @@
 <p align="center"><img align="center" width="280" src="./public/images/logo-dark.png#gh-dark-mode-only"/></p>
 <p align="center"><img align="center" width="280" src="./public/images/logo-light.png#gh-light-mode-only"/></p>
-<h3 align="center">Get Live Weather Updates: Real-Time OpenWeather App</h3>
+<h3>Get Live Weather Updates | Real-Time OpenWeather App</h3>
 <hr>
 
 <div align="center">
@@ -11,12 +11,12 @@
 <img src="https://custom-icon-badges.demolab.com/github/contributors/amit712singhal/sky-now?label=Contributors&labelColor=302d41&color=e6e6fa&logoColor=white&logo=people&style=for-the-badge"/>
 <img src="https://custom-icon-badges.demolab.com/github/license/amit712singhal/sky-now?label=LICENSE&labelColor=302d41&color=f0e68c&logoColor=white&logo=people&style=for-the-badge"/>
 <img src="https://custom-icon-badges.demolab.com/github/last-commit/amit712singhal/Sky-Now?label=last%20commit&labelColor=302d41&color=ffefd5&logoColor=white&logo=people&style=for-the-badge"/>
+<a href="https://amit712singhal.github.io/Sky-Now/" target="_blank">
+    <img alt="View Demo" src="https://img.shields.io/badge/View-Demo-blue?style=for-the-badge&logo=web">
+</a>
 </div>
 
-<p align="center">
-    <a href="https://amit712singhal.github.io/Sky-Now/">View Demo</a>
-  </p>
-
+<br/>
 Sky Now is a web application that provides real-time weather updates based on your current location. It gives you detailed weather information including temperature, humidity, wind speed, and more.
 
 ## 🖼️ Preview
