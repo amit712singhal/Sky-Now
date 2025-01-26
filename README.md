@@ -13,27 +13,33 @@
 <img src="https://custom-icon-badges.demolab.com/github/last-commit/amit712singhal/Sky-Now?label=last%20commit&labelColor=302d41&color=ffefd5&logoColor=white&logo=people&style=for-the-badge"/>
 </div>
 
+<p align="center">
+    <br />
+    <a href="https://amit712singhal.github.io/Sky-Now/">View Demo</a>
+  </p>
+
+<br/>
 Sky Now is a web application that provides real-time weather updates based on your current location. It gives you detailed weather information including temperature, humidity, wind speed, and more.
 
-Check out the live demo [here](https://amit712singhal.github.io/Sky-Now/).
-
-## Preview
- <img src="./public/images/preview/preview-Desktop.gif" >
+## 🖼️ Preview
+<p align="center">
+ <img height="400px" src="./public/images/preview/preview-Desktop.gif" alt="Sky Now App Preview">
+</p>
 
 <details>
-     <summary><h3>Table of Contents</h3></summary>
+     <summary>Table of Contents</summary>
      
-- [Installation](#installation)
+- [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Contribution](#contributing)
+- [Built With](#built-with)
+- [Contribution](#contribution)
 - [Connect with Me](#connect-with-me)
 - [License](#license)
 
 </details>
 
-## Installation
+## 🚀 Getting Started
 
 To run this project locally, follow these steps:
 
@@ -41,42 +47,47 @@ To run this project locally, follow these steps:
 
    ```sh
    git clone https://github.com/amit712singhal/Sky-Now.git
-   cd Sky-Now
    ```
 
-2. **Open index.html in your web browser**
+2. **Set Up the Project**
+   - Ensure you have a modern web browser installed
+   - You can open the `index.html` file directly or use a local server
+   - Recommended: Use [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension in VSCode for a smooth development experience
 
-      You can either open the index.html file directly in your browser or use a local server like [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VSCode to serve the files.
+3. **API Configuration**
+   - This project uses OpenWeather API
+   - Obtain an API key from [OpenWeatherMap](https://openweathermap.org/api)
+   - Replace the placeholder API key in the project's JavaScript file with your own key
 
-## Usage
+## 🌟 Usage
 
 1. **Grant location permission**
-
-     Once you've opened the application, it will request access to your device's location. Grant permission by clicking "Allow" or "Grant Access".
+     - Open the application
+     - Allow access to your device's location when prompted
 
 2. **View current weather**
+     - After granting permission, see real-time weather for your location
+     - Includes temperature, humidity, wind speed, and more
 
-     After granting permission, the application will display the current weather information for your location, including temperature, humidity, wind speed, and more.
+3. **Search for locations**
+    - Enter a city or location name in the search bar
+    - Press Enter to fetch weather information for that location
 
-3. **Search for weather updates**
+## ✨ Features
 
-    To view the weather for a different location, enter the location name or city in the search bar and press Enter. The application will fetch and display the weather information for the searched location.
+- 🌍 Real-time weather updates
+- 🎨 User-friendly interface
+- 📊 Detailed weather information
+- 🌡️ Multiple weather parameters (temperature, humidity, wind speed, etc.)
+- 📍 Easy location-based weather access
 
-## Features
-
-- Real-time weather updates
-- User-friendly interface
-- Detailed weather information
-- Supports multiple weather parameters like temperature, humidity, wind speed, etc.
-- Easy access to weather data for the current location
-
-## Technologies Used
+## 🛠️ Built With
 
 <div style="display: flex; flex-wrap: wrap; gap: 5px;">
-     <img src="https://img.shields.io/badge/HTML-%23F06529.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
-     <img src="https://img.shields.io/badge/CSS-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
-     <img src="https://custom-icon-badges.herokuapp.com/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-     <img src="https://custom-icon-badges.herokuapp.com/badge/OpenWeather%20API-D98457.svg?style=for-the-badge&logo=openweather&logoColor=white" alt="JavaScript">
+     <a href="https://html.com/"><img src="https://img.shields.io/badge/HTML-%23F06529.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML"></a>
+     <a href="https://www.w3.org/Style/CSS/"><img src="https://img.shields.io/badge/CSS-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS"></a>
+     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://custom-icon-badges.herokuapp.com/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"></a>
+     <a href="https://openweathermap.org/api"><img src="https://custom-icon-badges.herokuapp.com/badge/OpenWeather%20API-D98457.svg?style=for-the-badge&logo=openweather&logoColor=white" alt="OpenWeather API"></a>
 </div>
 
 ### Thanks to all Stargazers ⭐️
@@ -89,19 +100,17 @@ To run this project locally, follow these steps:
  </picture>
 </a>
 
-## Contribution
+## 🤝 Contribution
 
-Contributions to this project are welcome! If you find any bugs or have suggestions for improvements, please create an issue or submit a pull request.
+Contributions are welcome! Here's how you can help:
 
-1. Fork the repository.
-2. Create your feature branch (`git checkout -b feature/YourFeature`).
-3. Commit your changes (`git commit -am 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeature`).
-5. Create a new Pull Request.
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/YourFeature`)
+3. Commit changes (`git commit -am 'Add some feature'`)
+4. Push to branch (`git push origin feature/YourFeature`)
+5. Create a Pull Request
 
-## Connect with Me
-
-I love connecting with new people and exploring new opportunities. Feel free to reach out to me through any of the platforms below:
+## 🌐 Connect with Me
 
 <table>
     <tr>
@@ -131,6 +140,6 @@ I love connecting with new people and exploring new opportunities. Feel free to 
     </tr>
 </table>
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
