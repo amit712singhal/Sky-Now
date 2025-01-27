@@ -4,15 +4,15 @@
 <hr>
 
 <div align="center">
-<img src="https://custom-icon-badges.demolab.com/github/stars/amit712singhal/Sky-Now?label=Stars&labelColor=302d41&color=add8e6&logoColor=white&logo=star&style=for-the-badge"  />
+<img src="https://custom-icon-badges.demolab.com/github/stars/amit712singhal/Sky-Now?label=Stars&labelColor=302d41&color=ECD53F&logoColor=white&logo=star&style=for-the-badge"  />
 <img src="https://custom-icon-badges.demolab.com/github/issues/amit712singhal/sky-now?label=Issues&labelColor=302d41&color=90ee90&logoColor=white&logo=issue&style=for-the-badge"  />
-<img src="https://custom-icon-badges.demolab.com/github/issues-pr/amit712singhal/sky-now?&label=Pull%20requests&labelColor=302d41&color=ffb6c1&logoColor=white&logo=git-pull-request&style=for-the-badge"  />
+<img src="https://custom-icon-badges.demolab.com/github/issues-pr/amit712singhal/sky-now?&label=Pull%20requests&labelColor=302d41&color=FF90E8&logoColor=white&logo=git-pull-request&style=for-the-badge"  />
 <img src="https://custom-icon-badges.demolab.com/github/forks/amit712singhal/sky-now?&label=forks&labelColor=302d41&color=ffa07a&logoColor=white&logo=fork&style=for-the-badge"  />
 <img src="https://custom-icon-badges.demolab.com/github/contributors/amit712singhal/sky-now?label=Contributors&labelColor=302d41&color=e6e6fa&logoColor=white&logo=people&style=for-the-badge"/>
-<img src="https://custom-icon-badges.demolab.com/github/license/amit712singhal/sky-now?label=LICENSE&labelColor=302d41&color=f0e68c&logoColor=white&logo=people&style=for-the-badge"/>
-<img src="https://custom-icon-badges.demolab.com/github/last-commit/amit712singhal/Sky-Now?label=last%20commit&labelColor=302d41&color=ffefd5&logoColor=white&logo=people&style=for-the-badge"/>
+<img src="https://custom-icon-badges.demolab.com/github/license/amit712singhal/sky-now?label=LICENSE&labelColor=302d41&color=F1BF7A&logoColor=white&logo=giphy&style=for-the-badge"/>
+<img src="https://custom-icon-badges.demolab.com/github/last-commit/amit712singhal/Sky-Now?label=last%20commit&labelColor=302d41&color=ffefd5&logoColor=white&logo=git&style=for-the-badge"/>
 <a href="https://amit712singhal.github.io/Sky-Now/" target="_blank">
-    <img alt="View Demo" src="https://img.shields.io/badge/View-Demo-blue?style=for-the-badge&logo=web">
+    <img src="https://img.shields.io/badge/%20View-Demo-ffefd5?&labelColor=302d41&color=BBDDE5&style=for-the-badge&logoColor=white&logo=expedia">
 </a>
 </div>
 
@@ -57,7 +57,7 @@ To run this project locally, follow these steps:
    - Obtain an API key from [OpenWeatherMap](https://openweathermap.org/api)
    - Replace the placeholder API key in the project's JavaScript file with your own key
 
-## 🌟 Usage
+## 🎮 Usage
 
 1. **Grant location permission**
      - Open the application
@@ -98,7 +98,7 @@ To run this project locally, follow these steps:
  </picture>
 </a>
 
-## 🤝 Contribution
+## 🤗 Contribution
 
 Contributions are welcome! Here's how you can help:
 
