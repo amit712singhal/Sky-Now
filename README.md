@@ -1,6 +1,6 @@
 <p align="center"><img align="center" width="280" src="./public/images/logo-dark.png#gh-dark-mode-only"/></p>
 <p align="center"><img align="center" width="280" src="./public/images/logo-light.png#gh-light-mode-only"/></p>
-<h3>Get Live Weather Updates | Real-Time OpenWeather App</h3>
+<h3 align="center">Get Live Weather Updates | Real-Time OpenWeather App</h3>
 <hr>
 
 <div align="center">
