@@ -11,7 +11,7 @@
 <img src="https://custom-icon-badges.demolab.com/github/contributors/singhal-amit/sky-now?label=Contributors&labelColor=302d41&color=e6e6fa&logoColor=white&logo=people&style=for-the-badge"/>
 <img src="https://custom-icon-badges.demolab.com/github/license/singhal-amit/sky-now?label=LICENSE&labelColor=302d41&color=F1BF7A&logoColor=white&logo=giphy&style=for-the-badge"/>
 <img src="https://custom-icon-badges.demolab.com/github/last-commit/singhal-amit/Sky-Now?label=last%20commit&labelColor=302d41&color=ffefd5&logoColor=white&logo=git&style=for-the-badge"/>
-<a href="https://amit712singhal.github.io/Sky-Now/" target="_blank">
+<a href="https://singhal-amit.github.io/Sky-Now/" target="_blank">
     <img src="https://img.shields.io/badge/%20View-Demo-ffefd5?&labelColor=302d41&color=BBDDE5&style=for-the-badge&logoColor=white&logo=expedia">
 </a>
 </div>
