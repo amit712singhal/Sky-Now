@@ -4,13 +4,13 @@
 <hr>
 
 <div align="center">
-<img src="https://custom-icon-badges.demolab.com/github/stars/amit712singhal/Sky-Now?label=Stars&labelColor=302d41&color=ECD53F&logoColor=white&logo=star&style=for-the-badge"  />
-<img src="https://custom-icon-badges.demolab.com/github/issues/amit712singhal/sky-now?label=Issues&labelColor=302d41&color=90ee90&logoColor=white&logo=issue&style=for-the-badge"  />
-<img src="https://custom-icon-badges.demolab.com/github/issues-pr/amit712singhal/sky-now?&label=Pull%20requests&labelColor=302d41&color=FF90E8&logoColor=white&logo=git-pull-request&style=for-the-badge"  />
-<img src="https://custom-icon-badges.demolab.com/github/forks/amit712singhal/sky-now?&label=forks&labelColor=302d41&color=ffa07a&logoColor=white&logo=fork&style=for-the-badge"  />
-<img src="https://custom-icon-badges.demolab.com/github/contributors/amit712singhal/sky-now?label=Contributors&labelColor=302d41&color=e6e6fa&logoColor=white&logo=people&style=for-the-badge"/>
-<img src="https://custom-icon-badges.demolab.com/github/license/amit712singhal/sky-now?label=LICENSE&labelColor=302d41&color=F1BF7A&logoColor=white&logo=giphy&style=for-the-badge"/>
-<img src="https://custom-icon-badges.demolab.com/github/last-commit/amit712singhal/Sky-Now?label=last%20commit&labelColor=302d41&color=ffefd5&logoColor=white&logo=git&style=for-the-badge"/>
+<img src="https://custom-icon-badges.demolab.com/github/stars/singhal-amit/Sky-Now?label=Stars&labelColor=302d41&color=ECD53F&logoColor=white&logo=star&style=for-the-badge"  />
+<img src="https://custom-icon-badges.demolab.com/github/issues/singhal-amit/sky-now?label=Issues&labelColor=302d41&color=90ee90&logoColor=white&logo=issue&style=for-the-badge"  />
+<img src="https://custom-icon-badges.demolab.com/github/issues-pr/singhal-amit/sky-now?&label=Pull%20requests&labelColor=302d41&color=FF90E8&logoColor=white&logo=git-pull-request&style=for-the-badge"  />
+<img src="https://custom-icon-badges.demolab.com/github/forks/singhal-amit/sky-now?&label=forks&labelColor=302d41&color=ffa07a&logoColor=white&logo=fork&style=for-the-badge"  />
+<img src="https://custom-icon-badges.demolab.com/github/contributors/singhal-amit/sky-now?label=Contributors&labelColor=302d41&color=e6e6fa&logoColor=white&logo=people&style=for-the-badge"/>
+<img src="https://custom-icon-badges.demolab.com/github/license/singhal-amit/sky-now?label=LICENSE&labelColor=302d41&color=F1BF7A&logoColor=white&logo=giphy&style=for-the-badge"/>
+<img src="https://custom-icon-badges.demolab.com/github/last-commit/singhal-amit/Sky-Now?label=last%20commit&labelColor=302d41&color=ffefd5&logoColor=white&logo=git&style=for-the-badge"/>
 <a href="https://amit712singhal.github.io/Sky-Now/" target="_blank">
     <img src="https://img.shields.io/badge/%20View-Demo-ffefd5?&labelColor=302d41&color=BBDDE5&style=for-the-badge&logoColor=white&logo=expedia">
 </a>
@@ -44,7 +44,7 @@ To run this project locally, follow these steps:
 1. **Clone the repository**
 
    ```sh
-   git clone https://github.com/amit712singhal/Sky-Now.git
+   git clone https://github.com/singhal-amit/Sky-Now.git
    ```
 
 2. **Set Up the Project**
@@ -90,11 +90,11 @@ To run this project locally, follow these steps:
 
 ### Thanks to all Stargazers ⭐️
 
-<a href="https://star-history.com/#amit712singhal/Sky-Now&Timeline">
+<a href="https://star-history.com/#singhal-amit/Sky-Now&Timeline">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=amit712singhal/Sky-Now&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=amit712singhal/Sky-Now" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=amit712singhal/Sky-Now&type=Timeline" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=singhal-amit/Sky-Now&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=singhal-amit/Sky-Now" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=singhal-amit/Sky-Now&type=Timeline" />
  </picture>
 </a>
 
@@ -113,7 +113,7 @@ Contributions are welcome! Here's how you can help:
 <table>
     <tr>
         <td>
-            <a href="https://github.com/amit712singhal">
+            <a href="https://github.com/singhal-amit">
                 <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg"
                     height="48" width="48" alt="GitHub" />
             </a>
